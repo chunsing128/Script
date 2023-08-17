@@ -1,6 +1,6 @@
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Noverdue.js
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/Noverdue.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/chunsing128/Script/f8f7dc0ec82d24f3a8d542399c3e3ba29eb001e6/imafish.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/chunsing128/Script/f8f7dc0ec82d24f3a8d542399c3e3ba29eb001e6/imafish.js
 
 [MITM]
 hostname = api.revenuecat.com
