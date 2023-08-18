@@ -20,7 +20,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'ImAFish':{ name: 'pro', id: 'ProOver'},
+    'ImAFish':{ name: 'Pro', id: 'ProOver'},
   };
   const data = {
     "expires_date": "6666-06-06T06:06:06Z",
