@@ -1,5 +1,4 @@
 
-*/
 const guding = {};
 const guding6 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 if (typeof $response == "undefined") {
